@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BJ Quick Move</title>
+    <style>
+        body {
+            font-family: 'Arial Black', sans-serif;
+            background: url('logo.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            background-color: rgba(34, 34, 34, 0.8);
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: auto;
+            text-align: left;
+            background: rgba(51, 51, 51, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+        }
+        .phone-number {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .qr-code {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>BJ Quick Move</h1>
+    </div>
+    <div class="content">
+        <h2>Welcome to BJ Quick Move! 🚛✨</h2>
+        <p>We're so glad you're here! Whether you're a student moving to your new accommodation, a business needing a quick delivery, or just looking to transport a small load (up to 750kg), you've come to the right place.</p>
+        <p>At BJ Quick Move, we’re all about providing efficient, reliable, and hassle-free service—always with a smile! 😊</p>
+        <p>Thank you for choosing BJ Quick Move—Moving Made Easy!</p>
+        
+        <h3>Our Work</h3>
+        <div class="gallery">
+            <img src="image1.jpg" alt="BJ Quick Move Job 1">
+            <img src="image2.jpg" alt="BJ Quick Move Job 2">
+            <img src="image3.jpg" alt="BJ Quick Move Job 3">
+            <img src="image4.jpg" alt="BJ Quick Move Job 4">
+            <img src="image5.jpg" alt="BJ Quick Move Job 5">
+            <img src="image6.jpg" alt="BJ Quick Move Job 6">
+            <img src="image7.jpg" alt="BJ Quick Move Job 7">
+            <img src="image8.jpg" alt="BJ Quick Move Job 8">
+            <img src="image9.jpg" alt="BJ Quick Move Job 9">
+            <img src="image10.jpg" alt="BJ Quick Move Job 10">
+        </div>
+        
+        <h3>Contact Us</h3>
+        <div class="contact-form">
+            <form action="https://formspree.io/f/{your-email}" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
+        <h3>Follow Us</h3>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            
+        </div>
+        
+        <div class="phone-number">076 777 2054</div>
+        
+        <div class="qr-code">
+            <img src="qr-code.jpg" alt="Scan for more info" width="150px">
+        </div>
+    </div>
+</body>
+</html>
